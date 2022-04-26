@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.test{
+  background: linear-gradient(90deg, #545454 0%, rgb(0, 0, 0) 100%);
+}
+
+.navbar_text{
+  color: black;
+}
