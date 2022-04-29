@@ -9,7 +9,8 @@ export default function Home() {
     <>
      <Navbar />
        <h1>Home</h1>
-       <p className='text'></p>
+       <h1 className='text'>Welcome to my website</h1>
+       <p className='text'>My name is Alan Osefia  and i'm a first year student at the Ede Christian University of Applied Sciences</p>
        <p></p>
       <Footer />
     </>
