@@ -1,7 +1,7 @@
 html,
 body {
   /*background-color: #20222F; */
-  background-color: #20222f;
+  background-color: #85c8ff;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -18,14 +18,15 @@ a {
 }
 
 .test{
-  background: linear-gradient(90deg, #545454 0%, rgb(0, 0, 0) 100%);
+
+  background: linear-gradient(90deg, #2995ec 0%, #044377 100%);
 }
 
 .navbar_text{
   color: black;
 }
 .text{
-  color: white;
+  color: black;
 }
 .footer {
   position: fixed;
@@ -42,3 +43,15 @@ a {
   justify-content: center;
   align-items: center;
 }
+.logo-homepage{
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes example {
+  0%, 100% { transform: translateY(0) rotate(-3deg) }
+  50% { transform: translateY(-10px) rotate(3deg) }
+  }
