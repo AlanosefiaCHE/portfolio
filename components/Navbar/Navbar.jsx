@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image'
 
 export default function Navbar() {
     return (
         <>
             <nav className="navbar navbar-dark bg-dark fixed-top test" >
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Alan</a>
+                    <a className="navbar-brand" href="#"> <Image src="/logo.svg" alt="me" width="30" height="30" /> </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>

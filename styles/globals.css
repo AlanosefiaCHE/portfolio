@@ -1,6 +1,6 @@
 html,
 body {
-  /*background-color: #20222F; */
+  background: linear-gradient(90deg, #2995ec 0%, #770455 100%);
   background-color: #85c8ff;
   padding: 0;
   margin: 0;
@@ -18,8 +18,8 @@ a {
 }
 
 .test{
-
-  background: linear-gradient(90deg, #2995ec 0%, #044377 100%);
+  background: linear-gradient(90deg, #2995ec 0%, #770455 100%);
+  
 }
 
 .navbar_text{
@@ -56,4 +56,6 @@ a {
   50% { transform: translateY(-10px) rotate(3deg) }
   }
 
+.offcanvas-backdrop{
   
+}
