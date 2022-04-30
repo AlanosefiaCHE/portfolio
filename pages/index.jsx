@@ -7,14 +7,21 @@ import Footer from '../components/Navbar/Footer'
 export default function Home() {
   return (
     <>
-     <Navbar />
-       <h1>Home</h1>
-       <h1 className='text'>Welcome to my website</h1>
-       <p className='text'>My name is Alan Osefia  and i'm a first year student at the Ede Christian University of Applied Sciences</p>
-       <p></p>
+      <Navbar />
+      <h1>Home</h1>
+      <div className='hometext container'>
+        <div>
+          <h1 className='text'>Welcome to my website</h1>
+          <p className='text'>My name is Alan Osefia  and i'm a first year student at the Ede Christian University of Applied Sciences</p>
+
+        </div>
+
+      </div>
+
+      <p></p>
       <Footer />
     </>
-   
+
 
   )
 }
