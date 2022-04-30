@@ -30,11 +30,8 @@ export default function Navbar() {
                                     </Link>
 
                                 </li>
-                                <li className="nav-item dropdown">
-                                    <a className="navbar_text dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        More
-                                    </a>
-                                    <ul className="dropdown-menu navbar_text" aria-labelledby="offcanvasNavbarDropdown">
+                              
+                                   
 
                                         <li>
                                             <Link href="/grades">
@@ -44,8 +41,8 @@ export default function Navbar() {
 
 
                                         <li>
-                                            <Link href="/stocks">
-                                                <a className="navbar_text" >Stocks</a>
+                                            <Link href="/contact">
+                                                <a className="navbar_text" >Contact</a>
                                             </Link>
 
                                         </li>
@@ -58,8 +55,8 @@ export default function Navbar() {
                                             </Link>
 
                                         </li>
-                                    </ul>
-                                </li>
+
+                             
                             </ul>
 
                         </div>
