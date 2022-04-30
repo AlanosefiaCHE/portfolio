@@ -18,7 +18,9 @@ export default function Home() {
       
           <h1 className='text'>Welcome to my website</h1>
           <p className='text'>My name is Alan Osefia  and i'm a first year student at the Ede Christian University of Applied Sciences
-          I'm studying to become a software engineer,    </p>
+          I'm studying to become a software engineer.</p>
+
+          
       
           
 
