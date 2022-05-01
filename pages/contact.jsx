@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Navbar/Footer'
 
-export default function Stocks() {
+export default function Contact() {
   return (
     <>
     <Navbar />

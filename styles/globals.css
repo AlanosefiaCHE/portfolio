@@ -27,6 +27,7 @@ a {
 }
 .text{
   color: white;
+  width: 500px;
 }
 .footer {
   position: fixed;
