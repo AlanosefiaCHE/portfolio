@@ -57,6 +57,34 @@ a {
   50% { transform: translateY(-10px) rotate(3deg) }
   }
 
-.offcanvas-backdrop{
+  .skills-list{
+    list-style-type: none;
+  }
+
+.skills-logo{
+  height: 400px;
+  width: 400px;
+  color: white;
+}
+
+
+.circle-list-items {
   
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--white-alpha-40);
+  border-radius: 100%;
+  background-color: var(--white-alpha-75);
+  background-position: 50% 50%;
+
+  background-size: 36px;
+  list-style-type: none;
+  padding: 15px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 18%);
+  backdrop-filter: blur(10px);
 }
