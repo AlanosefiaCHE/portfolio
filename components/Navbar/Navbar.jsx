@@ -50,8 +50,8 @@ export default function Navbar() {
                                             <hr className="dropdown-divider" />
                                         </li>
                                         <li>
-                                            <Link href="/about">
-                                                <a className="dropdown-item navbar_text" >About me</a>
+                                            <Link href="/skills">
+                                                <a className="dropdown-item navbar_text" >Skills</a>
                                             </Link>
 
                                         </li>
