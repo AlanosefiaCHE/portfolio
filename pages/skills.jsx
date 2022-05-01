@@ -10,19 +10,19 @@ export default function Skills() {
   return (
     <>
       <Navbar />
-      <div className='hometext container text'>
+      <div className='skills-text container text'>
         <div>
-       
+        <SkillsCirculer />  
           <h1>Tech Stack & Skills</h1>
           <p>I have some experience with MySQL workbench, GO, HTML & CSS and i'm currently developing my skills with: React, Next.JS, C# and Javascript</p>
           
-          
+         
           <h2>Coming soon...</h2>
 
         </div>
 
       </div>
-     <SkillsCirculer />  
+     
       <Footer />
     </>
   )
