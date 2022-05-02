@@ -73,8 +73,8 @@ a {
   display: flex;
   top: 75px;
   left: 550px;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   justify-content: center;
   align-items: center;
   border: 2px solid white;
@@ -96,18 +96,18 @@ a {
   position: absolute;
 }
 #circle-item-3{
-  left: 124px;
-  bottom: -38px;
+  left: 185px;
+  bottom: -15px;
   position: absolute;
 }
 #circle-item-4{
   top: 200px;
-  right: -16px;
+  right: -11px;
   position: absolute;
 }
 #circle-item-5{
   top: 34px;
-  right: -16px;
+  right: 62px;
   position: absolute;
 }
 #circle-item-6{
@@ -120,6 +120,7 @@ right: 120px;
   position: absolute;
 }
 #circle-item-8{
-
+  top: -38px;
+  right: 120px;
   position: absolute;
 }
