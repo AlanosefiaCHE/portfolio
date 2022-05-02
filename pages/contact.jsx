@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <>
     <Navbar />
-    <h1>Stocks</h1>
+    <h1>Contact info</h1>
     <h2>Coming soon</h2>
     <Footer />
     </>

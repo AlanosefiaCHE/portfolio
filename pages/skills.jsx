@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <>
       <Navbar />
-      <div className='skills-text container text'>
+      <div className='skills-text  container text'>
         <div>
         <SkillsCirculer />  
           <h1>Tech Stack & Skills</h1>

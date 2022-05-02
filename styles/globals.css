@@ -69,30 +69,57 @@ a {
 
 
 .circle-list-items {
-  
-  position: absolute;
+  position: relative;
   display: flex;
-  left: 900px;
+  top: 75px;
+  left: 550px;
   width: 400px;
   height: 400px;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--white-alpha-40);
+  border: 2px solid white;
   border-radius: 100%;
-  background-color: var(--white-alpha-75);
-  background-position: 50% 50%;
-
-  background-size: 36px;
-  list-style-type: none;
+  background-color: transparent;
   padding: 10px;
   background-repeat: no-repeat;
-  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 18%);
   backdrop-filter: blur(10px);
 }
 
-.skills-text{
-  left: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#circle-item-1{
+  left: 0px;
+  top: 120px;
+  position: absolute;
+}
+#circle-item-2{
+  left: -10px;
+  top: 200px;
+  position: absolute;
+}
+#circle-item-3{
+  left: 124px;
+  bottom: -38px;
+  position: absolute;
+}
+#circle-item-4{
+  top: 200px;
+  right: -16px;
+  position: absolute;
+}
+#circle-item-5{
+  top: 34px;
+  right: -16px;
+  position: absolute;
+}
+#circle-item-6{
+top: -38px;
+right: 120px;
+  position: absolute;
+}
+#circle-item-7{
+
+  position: absolute;
+}
+#circle-item-8{
+
+  position: absolute;
 }
