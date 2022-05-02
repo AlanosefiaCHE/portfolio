@@ -62,8 +62,8 @@ a {
   }
 
 .skills-logo{
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   color: white;
 }
 
@@ -86,28 +86,28 @@ a {
 }
 
 #circle-item-1{
-  left: 0px;
-  top: 120px;
+  left: 50px;
+  top: 17px;
   position: absolute;
 }
 #circle-item-2{
-  left: -10px;
-  top: 200px;
+  left: 4px;
+  top: 196px;
   position: absolute;
 }
 #circle-item-3{
-  left: 185px;
-  bottom: -15px;
+  left: 135px;
+  bottom: -14px;
   position: absolute;
 }
 #circle-item-4{
   top: 200px;
-  right: -11px;
+  right: 5px;
   position: absolute;
 }
 #circle-item-5{
-  top: 34px;
-  right: 62px;
+  top: 17px;
+  right: 50px;
   position: absolute;
 }
 #circle-item-6{
@@ -121,6 +121,6 @@ right: 120px;
 }
 #circle-item-8{
   top: -38px;
-  right: 120px;
+  right: 147px;
   position: absolute;
 }
