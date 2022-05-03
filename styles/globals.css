@@ -124,3 +124,12 @@ right: 120px;
   right: 147px;
   position: absolute;
 }
+.text-block {
+  
+  bottom: 20px;
+  right: 20px;
+  background-color:hsl(hue, saturation, lightness);
+  color: rgb(236, 52, 52);
+  padding-left: 20px;
+  padding-right: 20px;
+}
