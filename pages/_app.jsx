@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
     <Head>
       
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-          
-       <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
  
     <Component {...pageProps} />
