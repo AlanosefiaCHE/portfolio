@@ -39,7 +39,7 @@ a {
  
 }
 .hometext{
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,4 +146,7 @@ right: 120px;
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+article {
+cursor: pointer;
 }
