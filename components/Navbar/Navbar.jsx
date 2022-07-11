@@ -30,9 +30,7 @@ export default function Navbar() {
                                     </Link>
 
                                 </li>
-                              
-                                   
-
+                            
                                         <li>
                                             <Link href="/grades">
                                                 <a className=" navbar_text" >Grades</a>
